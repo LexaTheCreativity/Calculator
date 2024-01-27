@@ -1,0 +1,77 @@
+.calculator {
+    border: 5px outset black;
+    background-color: #d3d6d8;
+    width: 21%;
+    height: 480px;
+    left: 35%;
+    top: 25%;
+    position: absolute;
+    
+}
+
+.display {
+    text-align: center;
+}
+
+.button {
+    border: 5px outset lightblue;
+    background-color: #1b6ec2;
+    font-size: 30px;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    width: 60px;
+}
+.button:hover {
+    background-color: #86b7fe;
+    transition: 0.7s;
+}
+
+.button_zero {
+    border: 5px outset lightblue;
+    background-color: #1b6ec2;
+    font-size: 30px;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    width: 210px;
+}
+.button_zero:hover {
+    background-color: #86b7fe;
+    transition: 0.7s;
+}
+
+.button_top {
+    border: 5px outset lightblue;
+    background-color: #1b6ec2;
+    font-size: 30px;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    width: 95px;
+}
+.button_top:hover {
+    background-color: #86b7fe;
+    transition: 0.7s;
+}
+
+
+.symbols_button {
+    border: 5px outset darkorange;
+    background-color: gold;
+    font-size: 30px;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    width: 60px;
+}
+.symbols_button:hover {
+    background-color: khaki;
+    transition: 0.7s;
+}
+
+.Screen_input {
+    border: 1px solid lightblue;
+    width: 89%;
+    padding: 20px;
+}

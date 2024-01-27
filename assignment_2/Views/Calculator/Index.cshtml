@@ -1,0 +1,50 @@
+@{
+    ViewBag.Title = "Calculator";
+    Layout = "_Layout";
+}
+
+<link rel="stylesheet" href="css/calculator.css"/>
+
+<div class="text-center">
+    <h1>Calculator</h1>
+</div>
+
+<div class="calculator">
+    <div class="display">
+        <div id="screen">
+            <input id="display" class="Screen_input" disabled/>
+        </div>
+        <div id="symbols_top">
+            <button id="reset" class="button_top" onclick="clearScreen()">C</button>
+            <button id="clear" class="button_top" onclick="clearLastEntry()">CE</button>
+            <button id="divide" class="symbols_button" onclick="display('/')">/</button>
+        </div>
+        <div id="number">
+            <button id="seven" class="button" onclick="display('7')">7</button>
+            <button id="eight" class="button" onclick="display('8')">8</button>
+            <button id="nine" class="button" onclick="display('9')">9</button>
+            <button id="multiply" class="symbols_button" onclick="display('*')">*</button>
+        </div>
+        
+        <div id="number-middle">
+            <button id="four" class="button" onclick="display('4')">4</button>
+            <button id="five" class="button" onclick="display('5')">5</button>
+            <button id="six" class="button" onclick="display('6')">6</button>
+            <button id="minus" class="symbols_button" onclick="display('-')">-</button>
+        </div>
+        
+        <div id="number-right">
+            <button id="one" class="button" onclick="display('1')">1</button>
+            <button id="two" class="button" onclick="display('2')">2</button>
+            <button id="three" class="button" onclick="display('3')">3</button>
+            <button id="plus" class="symbols_button" onclick="display('+')">+</button>
+        </div>
+        <div id="symbols">
+            <button id="zero" class="button_zero" onclick="display('0')">0</button>
+            <button id="equals" class="symbols_button" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+</div>
+
+
